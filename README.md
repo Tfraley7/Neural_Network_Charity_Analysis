@@ -26,7 +26,7 @@ The neural network model for this analysis was first built in a file called Alph
     
 <br/>
 <p align="center">
-  <img width="460" height="200" src="Images/Compile.png">
+  <img width="660" height="400" src="Images/Compile.png">
 </p>
 <br/>
 
