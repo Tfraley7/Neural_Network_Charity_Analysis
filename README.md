@@ -29,9 +29,12 @@ The neural network model for this analysis was first built in a file called Alph
   <img width="460" height="200" src="Images/Compile.png">
 </p>
 <br/>
-    * Target Model Performance: Unfortunately, the model was not able to meet a performance of 75% or above. Originally, the model was built with three layers and 30 neurons. Model performance was around 72% at this point and after adding more factors to assist in performance the model reached 72%.
-    * Increase Model Performance: To increase model performance I used four hidden layers, added 125 neurons, and at one point changed some activation functions to tanh; however this did not assist the model in performing over 75%.
+
+   * Target Model Performance: Unfortunately, the model was not able to meet a performance of 75% or above. Originally, the model was built with three layers and 30 neurons. Model performance was around 72% at this point and after adding more factors to assist in performance the model reached 72%.
     
+   * Increase Model Performance: To increase model performance I used four hidden layers, added 125 neurons, and at one point changed some activation functions to tanh; however this did not assist the model in performing over 75%.
+    
+   <br/>
 <p align="center">
 Non Optimized Model
 </p>
@@ -57,6 +60,12 @@ Optimized Model
 The final accuracy score for this model was 72%. The model was not able to achieve a score of over 75%. For future use of this model I would recommend using a random forest classifier. This is due to the random forest classifier being able to utilize feature bagging, assess missing values, and sustain accuracy when some values may be missing, (IBM, 2023).
 
 
-Reference:
+
+
+<br/>
+<br/>
+
+## Reference:
+
 IBM. (2023). What is a Random Forest. https://www.ibm.com/topics/random-forest#:~:text=Key%20Benefits&text=Feature%20bagging%20also%20makes%20the,or%20contribution%2C%20to%20the%20model.
 
